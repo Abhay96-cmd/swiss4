@@ -1,13 +1,3 @@
-# Sample Hardhat Project
+# Private erc20
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+Implemenation of an erc20 contract that is private ,basically doesn't logs off sensitive information like balances and approvals and events for everyone to view.
